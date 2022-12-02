@@ -9,7 +9,7 @@ const interrupter = (interruptingWord) => {
     return function(string) {
       return string.split(" ").join(` ${interruptingWord} `)
     }
-}
+};
 
 
 // Look below to see how this function is invoked:
