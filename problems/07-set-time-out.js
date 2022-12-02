@@ -6,20 +6,19 @@ of seconds.
 
 There are no specs for this problem - try it in the console yourself to
 test your answer!
+***********************************************************************/
 
-Examples:
+// Your code here
+const funcTimer = (time, func) => {
+  setTimeout(func, time)
+}
 
+// Examples:
 function partyFunc () {
   console.log("Party time!")
 }
 
 funcTimer(5000, partyFunc); // in 5 seconds prints: "Party time!"
-
-
-***********************************************************************/
-
-// Your code here
-
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
